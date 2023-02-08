@@ -1,0 +1,275 @@
+body {
+    /* background-image: url("./joshua-woroniecki-1yVlVKQIVOk-unsplash.jpg");
+    background-repeat: no-repeat;
+    width: fit-content;
+    background-position: middle middle; */
+    /* background-color: #9400ff; */
+    background-color: #133a5d;
+    background-color: #2a7a92;
+    background-color: #F4E8C1;
+    /* background-color: rgb(195, 195, 195); */
+    /* font-family:Roboto, Oxygen, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: "Factor A", Arial, Helvetica, sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+}
+
+.container {
+
+
+    background-image: url("./wallpaper_mikael_gustafsson.webp");
+    background-image: url("./bg.jpg");
+    /* filter: blur(1px);
+    -webkit-filter: blur(1px); */
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    margin: auto;
+}
+
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    /* background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2; */
+
+}
+
+.mainhead {
+    font-size: 9rem;
+    color: #000000;
+    font-weight: 600;
+    -webkit-text-stroke: 2px #000000;
+}
+
+.head {
+    color: #000000;
+    /* color: #331E38; */
+    font-size: 3rem;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.buynow {
+    width: 12rem;
+    padding: 1.4rem;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.buynow:hover{
+    background-color: #F4E8C1;
+    color: #000000;
+}
+
+.buynow a {
+    color: white;
+    text-decoration: none;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(20%);
+}
+
+.fade-in.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+/* products */
+.products {
+    /* text-align: center; */
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products h1 {
+    color: #000000;
+    display: block;
+    padding: 2rem;
+    font-size: 8rem;
+
+}
+
+.products-container {
+    max-width: 1200px;
+    color: white;
+
+    box-shadow: 4px 4px 18px rgba(137, 141, 154, .3);
+    border-radius: 20px;
+    background-color: #ffffff;
+    background-color: #E3C563;
+    /* border: 1px solid red; */
+}
+
+.products-container p {
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.brush,
+.reusablecontainer,
+.bamboostraw,
+.cups,
+.loofah {
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: #000000;
+    background-color: #E3C563;
+    border: none;
+}
+
+.brush p:hover,
+.reusablecontainer p:hover,
+.bamboostraw p:hover,
+.cups p:hover,
+.loofah p:hover {
+    color: #000000;
+    color: #9E7C1C;
+    color: #ffffff;
+}
+
+.icons {
+    width: 6rem;
+}
+
+.images {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#brushImage {
+    width: 100%;
+}
+
+
+
+
+/* quote */
+
+.quote-container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    z-index: 1;
+    margin-top: 25rem;
+}
+
+.quote {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    background-color: #d9ecf5;
+    background-color: #E3C563;
+    border-radius: 40px;
+    padding: 4rem;
+}
+
+.quote-text {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.quote-container::after {
+    content: "";
+    position: absolute;
+    width: 690px;
+    width: 310px;
+    height: 837px;
+    z-index: -1;
+    background: url('https://www.semrush.com/static/images/bubble.1793638c40709caea7b32a8f93e4ca07.svg');
+    background: url('./comment.png') no-repeat;
+    background-size: contain;
+    right: 8rem;
+    top: 180rem;
+}
+
+.quote-img {
+    padding: 1rem;
+}
+
+
+.name {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+/* data */
+.data-container {
+    width: 1200px;
+    margin: auto;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+
+.text-data {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.number-data {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.num1,
+.num2,
+.num3 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    z-index: 2;
+}
+
+.num1 img, .num2 img, .num3 img {
+    position: absolute;
+    z-index: -1;
+    width: 8rem;
+    margin-left: 6rem;
+    margin-top: -1.5rem;
+}
+
+/* end */
+
+.buynow-container {
+    background-image: url("./wallpaper_mikael_gustafsson.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.text-buynow {
+    font-size: 5rem;
+    color: #ffffff;
+}
