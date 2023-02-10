@@ -273,3 +273,11 @@ body {
     font-size: 5rem;
     color: #ffffff;
 }
+
+.text-buynow p {
+    font-size: 4rem;
+    color: #000000;
+    /* font-weight: 600; */
+    -webkit-text-stroke: 2px #000000;
+}
+
